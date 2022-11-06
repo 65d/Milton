@@ -1,0 +1,60 @@
+* {
+    cursor: default;
+}
+.nav {
+width: 30%;
+background-color: white;
+height: 100vh;
+max-width: 400px;
+box-shadow: 0 0 0 1px rgb(0 0 0 / 6%);  
+
+padding: 50px;
+
+}
+.logo {
+    color: #333;
+    font-size: 36px;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.text3 {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 22px;
+}
+.h1{
+    width: 90px;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #cbcbcb;
+    border: 0;
+}
+.nav-link {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    font-family: Lato, sans-serif;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2.5px 0;
+}
+a > img {
+   margin-right: 8px;
+    opacity: 0.4;
+}
+.pb {
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 7px;
+}
