@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import './style.css';
 
 const getHeaderComponent = (text) => {
@@ -28,14 +28,13 @@ const getListComponent = (elems) => {
 
 
 function CardContent (props) {
+    console.log(8877777777777777777777111);
+
  console.log(props);
  return (
-  <div className="card padding-20">
-   <div
-    className="card-image"
-    style={{ backgroundImage: `url(${props.image})` }}
-   ></div>
-
+  <div className="card card-nm">
+ 
+   <img className="card-image" src={`../${props.image}`}/>
    {
     props.fullPage.map(elem => {
      switch (elem.type) {

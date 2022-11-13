@@ -1,5 +1,5 @@
 
-.card > img {
+.card img {
     height: 250px;
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -18,7 +18,6 @@
     pointer-events: all;
     transition: 0.3s ease;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.082);
-
 }
 
 .card:hover {
@@ -33,15 +32,21 @@
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.155);
 
 }
-.card > h1 {
+.card h1 {
    margin: 10px 33px;
    margin-top: 35px;
    font-size: 30px;
    line-height: 37px;
    font-weight: 400;
    pointer-events: none;
+   text-decoration: none !important;
+    color: black;
 }
-.card > .p {
+a {
+    text-decoration: none !important;
+
+}
+.card  .p {
     margin-left: 35px;
     margin-top: 15px;
     color: #aaa;
@@ -49,7 +54,7 @@
     line-height: 22px;
     pointer-events: none;
  }
- .card > .date {
+ .card >  .date {
     margin: 10px 35px;
     margin-top: 15px;
     margin-bottom: 33px;
@@ -64,3 +69,19 @@
  .button {
     pointer-events: all !important;
  }
+
+ .card-nm {
+    cursor: default !important;
+    transform: scale(1.00) !important;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.082) !important;
+    /* transition: ease 0.5s; */
+}
+.bub {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    /* background-color: ; */
+    color: rgb(0, 0, 0);
+    /* padding: 5px 20px; */
+    border-radius: 6px;
+}

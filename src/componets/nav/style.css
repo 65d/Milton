@@ -47,6 +47,18 @@ padding: 50px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 2.5px 0;
+    transition: ease 0.2s;
+    width: fit-content;
+}
+.nav-link:hover {
+    transform: scale(1.05);
+    color: black;
+    cursor: pointer;
+}
+.nav-link:active {
+    transform: scale(0.957);
+    color: black;
+    cursor: pointer;
 }
 a > img {
    margin-right: 8px;
